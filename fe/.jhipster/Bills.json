@@ -1,0 +1,75 @@
+{
+  "name": "Bills",
+  "fields": [
+    {
+      "fieldName": "billID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "salesID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "discount",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "vat",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "payment",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "customerID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "orderDetails",
+      "otherEntityRelationshipName": "bills",
+      "relationshipName": "orderDetails"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "customers",
+      "otherEntityRelationshipName": "bills",
+      "relationshipName": "customers"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "member",
+      "otherEntityRelationshipName": "bills",
+      "relationshipName": "member"
+    }
+  ],
+  "entityTableName": "bills",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210418133528"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "DayWorks",
+  "fields": [
+    {
+      "fieldName": "workID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "userID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dayWork",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "member",
+      "otherEntityRelationshipName": "dayWorks",
+      "relationshipName": "member"
+    }
+  ],
+  "entityTableName": "day_works",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210418133532"
+}

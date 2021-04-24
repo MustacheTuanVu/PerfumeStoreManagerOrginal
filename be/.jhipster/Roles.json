@@ -1,0 +1,31 @@
+{
+  "name": "Roles",
+  "fields": [
+    {
+      "fieldName": "roleID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "roleName",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "member",
+      "otherEntityRelationshipName": "roles",
+      "relationshipName": "member"
+    }
+  ],
+  "entityTableName": "roles",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210418132028"
+}

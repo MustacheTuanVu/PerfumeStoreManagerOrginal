@@ -1,0 +1,31 @@
+{
+  "name": "Categories",
+  "fields": [
+    {
+      "fieldName": "categoryID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoryName",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "products",
+      "otherEntityRelationshipName": "categories",
+      "relationshipName": "products"
+    }
+  ],
+  "entityTableName": "categories",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210418132022"
+}

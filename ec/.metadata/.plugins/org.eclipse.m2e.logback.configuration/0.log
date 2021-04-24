@@ -1,0 +1,53 @@
+2021-04-18 20:21:24,806 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-04-18 20:21:52,606 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.coderkiemcom.perfumestoremanager:perfume-store-manager:0.0.1-SNAPSHOT @ /Volumes/macOS/coderkiemcom/prodcut/PerfumeStoreManager/be/pom.xml.
+2021-04-18 20:21:58,629 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /perfume-store-manager/src/main/java
+2021-04-18 20:21:58,630 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /perfume-store-manager/src/main/resources
+2021-04-18 20:21:58,659 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /perfume-store-manager/src/test/java
+2021-04-18 20:21:58,660 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /perfume-store-manager/src/test/resources
+2021-04-18 20:22:04,972 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 16 sec
+2021-04-18 20:22:26,673 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-18 20:22:26,673 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-18 20:22:26,686 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-04-18 20:22:26,834 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 37 resources
+2021-04-18 20:22:27,023 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-18 20:22:27,023 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-18 20:22:27,025 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-04-18 20:22:27,401 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 37 resources
+2021-04-18 20:22:27,449 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-18 20:22:27,449 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-18 20:22:27,450 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2021-04-18 20:22:29,067 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-18 20:22:29,069 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-18 20:22:29,076 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-18 20:22:29,077 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-18 20:22:29,084 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-18 20:22:29,085 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-18 20:22:29,085 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-18 20:22:29,085 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-18 20:22:29,095 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-18 20:22:29,095 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-18 20:22:29,096 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-18 20:23:08,062 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-18 20:23:08,062 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-18 20:23:08,064 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-18 20:23:08,071 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-18 20:23:08,075 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-18 20:23:08,075 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-18 20:23:08,075 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-18 20:23:08,084 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-18 20:23:08,087 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-18 20:23:08,088 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-18 20:23:08,088 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-21 19:21:23,999 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-04-24 11:43:31,054 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-04-24 11:44:49,183 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-24 11:44:49,185 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-24 11:44:49,189 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-04-24 11:44:49,227 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 37 resources
+2021-04-24 11:44:49,263 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-24 11:44:49,263 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-24 11:44:49,263 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-04-24 11:44:49,338 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 37 resources
+2021-04-24 11:44:49,403 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-04-24 11:44:49,403 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-04-24 11:44:49,403 [Worker-10: Launching perfume-store-manager - PerfumeStoreManagerApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources

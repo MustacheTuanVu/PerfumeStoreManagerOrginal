@@ -1,0 +1,94 @@
+
+entity Bills {
+	billID String,
+    salesID String,
+    date LocalDate,
+    discount Float,
+    vat Float,
+    payment Float,
+    total Float,
+    customerID String,
+    status Integer,
+    description String
+}
+
+entity OrderDetails {
+	orderID String,
+    billID String,
+    productID String,
+    quantity Integer,
+    price Float
+}
+
+entity Categories {
+	categoryID String,
+    categoryName String
+}
+
+entity Customers {
+	customerID String,
+    customerName String,
+    address String,
+    phone String,
+    email String,
+    gender Integer
+}
+
+entity DayWorks {
+	workID String,
+    userID String,
+    dayWork Integer
+}
+
+entity Products {
+	productID String,
+    productName String,
+    quantityAvailable Integer,
+    price Float,
+    dateImport LocalDate,
+    expireDate LocalDate,
+    description String,
+    categoryID String,
+  	volume Float,
+}
+
+entity Member {
+	userID String
+    name String
+    phone String
+    email String
+    roleID String
+    storeID String
+    salary Float
+}
+
+entity Stores {
+	storeID String,
+    storeName String,
+    storePhone String,
+    storeAdress String,
+    storeRent Float
+}
+
+entity Roles {
+	roleID String
+    roleName String
+}
+
+relationship OneToMany {
+	Customers{bills} to Bills,
+    Member{bills} to Bills,
+    Member{dayWorks} to DayWorks,
+    Bills{orderDetails} to OrderDetails,
+    Products{orderDetails} to OrderDetails,
+    Categories{products} to Products,
+    Stores{member} to Member,
+    Roles{member} to Member
+}
+
+
+paginate * with pagination
+dto * with mapstruct
+filter *
+service all with serviceImpl
+

@@ -1,0 +1,30 @@
+{
+  "perfumeStoreManagerApp": {
+    "customers": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Customers",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Customers",
+        "notFound": "No Customers found"
+      },
+      "created": "Một Customers mới được tạo với định danh {{ param }}",
+      "updated": "Một Customers cập nhật với định danh {{ param }}",
+      "deleted": "Một Customers đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Customers {{ id }}?"
+      },
+      "detail": {
+        "title": "Customers"
+      },
+      "id": "ID",
+      "customerID": "Customer ID",
+      "customerName": "Customer Name",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "gender": "Gender",
+      "bills": "Bills"
+    }
+  }
+}

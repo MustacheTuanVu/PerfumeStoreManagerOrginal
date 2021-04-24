@@ -1,0 +1,36 @@
+{
+  "perfumeStoreManagerApp": {
+    "bills": {
+      "home": {
+        "title": "Bills",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Bills",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Bills",
+        "notFound": "No Bills found"
+      },
+      "created": "Một Bills mới được tạo với định danh {{ param }}",
+      "updated": "Một Bills cập nhật với định danh {{ param }}",
+      "deleted": "Một Bills đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Bills {{ id }}?"
+      },
+      "detail": {
+        "title": "Bills"
+      },
+      "id": "ID",
+      "billID": "Bill ID",
+      "salesID": "Sales ID",
+      "date": "Date",
+      "discount": "Discount",
+      "vat": "Vat",
+      "payment": "Payment",
+      "total": "Total",
+      "customerID": "Customer ID",
+      "status": "Status",
+      "description": "Description",
+      "orderDetails": "Order Details",
+      "customers": "Customers",
+      "member": "Member"
+    }
+  }
+}

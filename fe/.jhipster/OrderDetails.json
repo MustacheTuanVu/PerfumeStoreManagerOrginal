@@ -1,0 +1,49 @@
+{
+  "name": "OrderDetails",
+  "fields": [
+    {
+      "fieldName": "orderID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "billID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quantity",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "bills",
+      "otherEntityRelationshipName": "orderDetails",
+      "relationshipName": "bills"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "products",
+      "otherEntityRelationshipName": "orderDetails",
+      "relationshipName": "products"
+    }
+  ],
+  "entityTableName": "order_details",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210418133529"
+}

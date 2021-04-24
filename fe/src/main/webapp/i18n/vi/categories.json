@@ -1,0 +1,26 @@
+{
+  "perfumeStoreManagerApp": {
+    "categories": {
+      "home": {
+        "title": "Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Categories",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Categories",
+        "notFound": "No Categories found"
+      },
+      "created": "Một Categories mới được tạo với định danh {{ param }}",
+      "updated": "Một Categories cập nhật với định danh {{ param }}",
+      "deleted": "Một Categories đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Categories {{ id }}?"
+      },
+      "detail": {
+        "title": "Categories"
+      },
+      "id": "ID",
+      "categoryID": "Category ID",
+      "categoryName": "Category Name",
+      "products": "Products"
+    }
+  }
+}

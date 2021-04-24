@@ -1,0 +1,26 @@
+{
+  "perfumeStoreManagerApp": {
+    "roles": {
+      "home": {
+        "title": "Roles",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Roles",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Roles",
+        "notFound": "No Roles found"
+      },
+      "created": "Một Roles mới được tạo với định danh {{ param }}",
+      "updated": "Một Roles cập nhật với định danh {{ param }}",
+      "deleted": "Một Roles đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Roles {{ id }}?"
+      },
+      "detail": {
+        "title": "Roles"
+      },
+      "id": "ID",
+      "roleID": "Role ID",
+      "roleName": "Role Name",
+      "member": "Member"
+    }
+  }
+}

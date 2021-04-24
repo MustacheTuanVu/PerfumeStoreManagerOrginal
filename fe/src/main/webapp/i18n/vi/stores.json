@@ -1,0 +1,29 @@
+{
+  "perfumeStoreManagerApp": {
+    "stores": {
+      "home": {
+        "title": "Stores",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Stores",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Stores",
+        "notFound": "No Stores found"
+      },
+      "created": "Một Stores mới được tạo với định danh {{ param }}",
+      "updated": "Một Stores cập nhật với định danh {{ param }}",
+      "deleted": "Một Stores đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Stores {{ id }}?"
+      },
+      "detail": {
+        "title": "Stores"
+      },
+      "id": "ID",
+      "storeID": "Store ID",
+      "storeName": "Store Name",
+      "storePhone": "Store Phone",
+      "storeAdress": "Store Adress",
+      "storeRent": "Store Rent",
+      "member": "Member"
+    }
+  }
+}

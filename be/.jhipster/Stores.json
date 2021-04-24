@@ -1,0 +1,43 @@
+{
+  "name": "Stores",
+  "fields": [
+    {
+      "fieldName": "storeID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "storeName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "storePhone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "storeAdress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "storeRent",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "member",
+      "otherEntityRelationshipName": "stores",
+      "relationshipName": "member"
+    }
+  ],
+  "entityTableName": "stores",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210418132027"
+}

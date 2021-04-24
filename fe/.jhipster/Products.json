@@ -1,0 +1,65 @@
+{
+  "name": "Products",
+  "fields": [
+    {
+      "fieldName": "productID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quantityAvailable",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "dateImport",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "expireDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoryID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "volume",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "orderDetails",
+      "otherEntityRelationshipName": "products",
+      "relationshipName": "orderDetails"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "categories",
+      "otherEntityRelationshipName": "products",
+      "relationshipName": "categories"
+    }
+  ],
+  "entityTableName": "products",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210418133533"
+}

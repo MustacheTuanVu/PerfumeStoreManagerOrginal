@@ -1,0 +1,69 @@
+{
+  "name": "Member",
+  "fields": [
+    {
+      "fieldName": "userID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "roleID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "storeID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "salary",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "bills",
+      "otherEntityRelationshipName": "member",
+      "relationshipName": "bills"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "dayWorks",
+      "otherEntityRelationshipName": "member",
+      "relationshipName": "dayWorks"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "stores",
+      "otherEntityRelationshipName": "member",
+      "relationshipName": "stores"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "roles",
+      "otherEntityRelationshipName": "member",
+      "relationshipName": "roles"
+    }
+  ],
+  "entityTableName": "member",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210418132026"
+}
